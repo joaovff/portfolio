@@ -165,12 +165,18 @@ function Works({ project, setProject }) {
                       href="https://github.com/joaovff/restaurant-project"
                       target="_blank"
                       className="hover-link"
-                      style={{ display: "flex", textDecoration: "none" }}
-                      color="white"
-                      backgroundColor="rgb(255,255,255,0.08)"
+                      style={{
+                        display: "flex",
+                        textDecoration: "none",
+                        backgroundColor: "rgb(255,255,255,0.08)",
+                        color: "white",
+                      }}
                     >
                       <BsGithub
-                        backgroundColor="rgb(255,255,255,0.08)"
+                        style={{
+                          backgroundColor: "rgb(255,255,255,0.08)",
+                          color: "white",
+                        }}
                       />
                     </a>
                   </Button>
@@ -257,12 +263,21 @@ function Works({ project, setProject }) {
                       href="https://github.com/joaovff/Auto-Premium-Backend"
                       target="_blank"
                       className="hover-link"
-                      style={{ display: "flex", textDecoration: "none" }}
-                      backgroundColor="rgb(255,255,255,0.08)"
+                      style={{
+                        display: "flex",
+                        textDecoration: "none",
+                        backgroundColor: "rgb(255,255,255,0.08)",
+                        color: "white",
+                      }}
                     >
                       Back-end{" "}
                       <BsGithub
-                        style={{ marginLeft: "8px", marginTop: "2px" }}
+                        style={{
+                          marginLeft: "8px",
+                          marginTop: "2px",
+                          backgroundColor: "rgb(255,255,255,0.08)",
+                          color: "white",
+                        }}
                       />
                     </a>{" "}
                   </Button>
@@ -271,14 +286,21 @@ function Works({ project, setProject }) {
                       href="https://github.com/joaovff/Auto-Premium-Frontend"
                       target="_blank"
                       className="hover-link"
-                      style={{ display: "flex", textDecoration: "none" }}
-                      backgroundColor="rgb(255,255,255,0.08)"
+                      style={{
+                        display: "flex",
+                        textDecoration: "none",
+                        backgroundColor: "rgb(255,255,255,0.08)",
+                        color: "white",
+                      }}
                     >
                       Front-end{" "}
                       <BsGithub
-                        style={{ marginLeft: "8px", marginTop: "2px" }}
-                        backgroundColor="rgb(255,255,255,0.08)"
-        
+                        style={{
+                          marginLeft: "8px",
+                          marginTop: "2px",
+                          backgroundColor: "rgb(255,255,255,0.08)",
+                          color: "white",
+                        }}
                       />
                     </a>
                   </Button>
