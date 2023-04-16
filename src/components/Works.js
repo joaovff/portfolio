@@ -267,7 +267,7 @@ function Works({ project, setProject }) {
                   </Stack>
                   <br />
                   <Button
-                    className="hover.link"
+                    className="hover-link"
                     color="white"
                     backgroundColor="rgb(255,255,255,0.08)"
                   >
