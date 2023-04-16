@@ -258,7 +258,7 @@ function Works({ project, setProject }) {
                     </Text>
                   </Stack>
                   <br />
-                  <Button>
+                  <Button color="white" backgroundColor="rgb(255,255,255,0.08)">
                     <a
                       href="https://github.com/joaovff/Auto-Premium-Backend"
                       target="_blank"
@@ -266,9 +266,6 @@ function Works({ project, setProject }) {
                       style={{
                         display: "flex",
                         textDecoration: "none",
-                        backgroundColor: "rgb(255,255,255,0.08)",
-                        color: "white",
-
                       }}
                     >
                       Back-end{" "}
@@ -282,7 +279,7 @@ function Works({ project, setProject }) {
                       />
                     </a>{" "}
                   </Button>
-                  <Button>
+                  <Button color="white" backgroundColor="rgb(255,255,255,0.08)">
                     <a
                       href="https://github.com/joaovff/Auto-Premium-Frontend"
                       target="_blank"
@@ -290,10 +287,8 @@ function Works({ project, setProject }) {
                       style={{
                         display: "flex",
                         textDecoration: "none",
-                        backgroundColor: "rgb(255,255,255,0.08)",
-                        color: "white",
-
                       }}
+                      color="white"
                     >
                       Front-end{" "}
                       <BsGithub
