@@ -273,7 +273,6 @@ function Works({ project, setProject }) {
                     <a
                       href="https://github.com/joaovff/Auto-Premium-Backend"
                       target="_blank"
-                      className="hover-link"
                       style={{
                         display: "flex",
                         textDecoration: "none",
@@ -281,7 +280,6 @@ function Works({ project, setProject }) {
                     >
                       Back-end{" "}
                       <BsGithub
-                        className="hover-link"
                         style={{
                           marginLeft: "8px",
                           marginTop: "2px",
@@ -299,7 +297,6 @@ function Works({ project, setProject }) {
                     <a
                       href="https://github.com/joaovff/Auto-Premium-Frontend"
                       target="_blank"
-                      className="hover-link"
                       style={{
                         display: "flex",
                         textDecoration: "none",
@@ -308,7 +305,6 @@ function Works({ project, setProject }) {
                     >
                       Front-end{" "}
                       <BsGithub
-                        className="hover-link"
                         style={{
                           marginLeft: "8px",
                           marginTop: "2px",
