@@ -64,8 +64,13 @@ function About() {
         <ModalContent backgroundColor="transparent" marginTop="80px">
           <ModalHeader>A bit more about me</ModalHeader>
           <ModalCloseButton />
-          <ModalBody display="flex" flexDirection="column" justifyContent="center" alignItems={"center"}>
-            <Avatar src="/i.jpeg" height="220px" width="200px"/>
+          <ModalBody
+            display="flex"
+            flexDirection="column"
+            justifyContent="center"
+            alignItems={"center"}
+          >
+            <Avatar src="/i.jpeg" height="220px" width="200px" />
             <Text textAlign={"justify"}>
               I'm a junior developer, passionate about cars, motorcycles and
               games like racing simulators, DOTA2, football, etc. I'm 24 years

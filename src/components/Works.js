@@ -164,7 +164,7 @@ function Works({ project, setProject }) {
                 p={6}
                 maxW={"330px"}
                 w={"full"}
-                bg={"transparent"}
+                bg="transparent"
                 boxShadow={"2xl"}
                 rounded={"lg"}
                 pos={"relative"}
