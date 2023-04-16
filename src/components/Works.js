@@ -75,6 +75,7 @@ function Works({ project, setProject }) {
                 backgroundColor="rgb(255,255,255,0.08)"
                 marginBottom="4px"
                 onClick={() => setProject("idea")}
+                className="hover-link"
               >
                 IDEA Restaurant (Digital Menu)
               </Button>
@@ -82,6 +83,7 @@ function Works({ project, setProject }) {
                 color="white"
                 backgroundColor="rgb(255,255,255,0.08)"
                 onClick={() => setProject("auto")}
+                className="hover-link"
               >
                 Auto-Premium
               </Button>
