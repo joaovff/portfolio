@@ -160,7 +160,7 @@ function Works({ project, setProject }) {
                     </Text>
                   </Stack>
                   <br />
-                  <Button>
+                  <Button color="white" backgroundColor="rgb(255,255,255,0.08)">
                     <a
                       href="https://github.com/joaovff/restaurant-project"
                       target="_blank"
@@ -168,8 +168,8 @@ function Works({ project, setProject }) {
                       style={{
                         display: "flex",
                         textDecoration: "none",
-                        backgroundColor: "rgb(255,255,255,0.08)",
                         color: "white",
+                        backgroundColor: "rgb(255,255,255,0.08)",
                       }}
                     >
                       <BsGithub
