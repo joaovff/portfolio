@@ -61,15 +61,26 @@ function Works({ project, setProject }) {
 
       <Modal isCentered isOpen={isOpen} onClose={onClose}>
         {overlay}
-        <ModalContent backgroundColor="transparent">
-          <ModalHeader>Browse my projects</ModalHeader>
+        <ModalContent backgroundColor="rgb(255,255,255,0.002)">
+          <ModalHeader color="white">Browse my projects</ModalHeader>
           <ModalCloseButton />
           {project && project === "options" ? (
             <ModalBody display="flex" flexDirection="column">
-              <Button marginBottom="4px" onClick={() => setProject("idea")}>
+              <Button
+                color="white"
+                backgroundColor="rgb(255,255,255,0.08)"
+                marginBottom="4px"
+                onClick={() => setProject("idea")}
+              >
                 IDEA Restaurant (Digital Menu)
               </Button>
-              <Button onClick={() => setProject("auto")}>Auto-Premium</Button>
+              <Button
+                color="white"
+                backgroundColor="rgb(255,255,255,0.08)"
+                onClick={() => setProject("auto")}
+              >
+                Auto-Premium
+              </Button>
             </ModalBody>
           ) : project === "idea" ? (
             <Center className="modal-card" py={12}>
@@ -265,11 +276,15 @@ function Works({ project, setProject }) {
 
           <ModalFooter>
             {project && project !== "options"}
-            <Button marginRight="10px" onClick={() => setProject("options")}>
-              <AiOutlineRollback />
+            <Button
+              marginRight="10px"
+              onClick={() => setProject("options")}
+              backgroundColor="rgb(255,255,255,0.08)"
+            >
+              <AiOutlineRollback color="white" />
             </Button>
             <Button bg={"red.500"} onClick={onClose}>
-              <AiOutlineClose />
+              <AiOutlineClose color="white" />
             </Button>
           </ModalFooter>
         </ModalContent>
