@@ -175,6 +175,7 @@ function Works({ project, setProject }) {
                       }}
                     >
                       <BsGithub
+                        className="hover-link"
                         style={{
                           backgroundColor: "transparent",
                           color: "white",
@@ -272,6 +273,7 @@ function Works({ project, setProject }) {
                     >
                       Back-end{" "}
                       <BsGithub
+                        className="hover-link"
                         style={{
                           marginLeft: "8px",
                           marginTop: "2px",
@@ -294,6 +296,7 @@ function Works({ project, setProject }) {
                     >
                       Front-end{" "}
                       <BsGithub
+                        className="hover-link"
                         style={{
                           marginLeft: "8px",
                           marginTop: "2px",
