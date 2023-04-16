@@ -174,7 +174,7 @@ function Works({ project, setProject }) {
                     >
                       <BsGithub
                         style={{
-                          backgroundColor: "rgb(255,255,255,0.08)",
+                          backgroundColor: "transparent",
                           color: "white",
                         }}
                       />
@@ -266,7 +266,7 @@ function Works({ project, setProject }) {
                       style={{
                         display: "flex",
                         textDecoration: "none",
-                        backgroundColor: "rgb(255,255,255,0.08)",
+                        backgroundColor: "transparent",
                         color: "white",
                       }}
                     >
@@ -275,7 +275,7 @@ function Works({ project, setProject }) {
                         style={{
                           marginLeft: "8px",
                           marginTop: "2px",
-                          backgroundColor: "rgb(255,255,255,0.08)",
+                          backgroundColor: "transparent",
                           color: "white",
                         }}
                       />
@@ -289,7 +289,7 @@ function Works({ project, setProject }) {
                       style={{
                         display: "flex",
                         textDecoration: "none",
-                        backgroundColor: "rgb(255,255,255,0.08)",
+                        backgroundColor: "transparent",
                         color: "white",
                       }}
                     >
@@ -298,7 +298,7 @@ function Works({ project, setProject }) {
                         style={{
                           marginLeft: "8px",
                           marginTop: "2px",
-                          backgroundColor: "rgb(255,255,255,0.08)",
+                          backgroundColor: "transparent",
                           color: "white",
                         }}
                       />
