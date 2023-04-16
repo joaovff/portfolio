@@ -61,7 +61,11 @@ function Works({ project, setProject }) {
 
       <Modal isCentered isOpen={isOpen} onClose={onClose}>
         {overlay}
-        <ModalContent backgroundColor="rgb(255,255,255,0.002)">
+        <ModalContent
+          backgroundColor="rgb(255,255,255,0.002)"
+          color="white"
+          boxShadow="rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"
+        >
           <ModalHeader color="white">Browse my projects</ModalHeader>
           <ModalCloseButton />
           {project && project === "options" ? (
@@ -90,7 +94,7 @@ function Works({ project, setProject }) {
                 maxW={"330px"}
                 w={"full"}
                 bg={"transparent"}
-                boxShadow={"2xl"}
+                boxShadow="rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"
                 rounded={"lg"}
                 pos={"relative"}
                 zIndex={1}
@@ -142,6 +146,7 @@ function Works({ project, setProject }) {
                       href="https://idea-restaurant.cyclic.app/"
                       className="hover-link"
                       target="_blank"
+                      style={{ color: "white" }}
                     >
                       IDEA Restaurant{" "}
                     </a>
@@ -161,8 +166,13 @@ function Works({ project, setProject }) {
                       target="_blank"
                       className="hover-link"
                       style={{ display: "flex", textDecoration: "none" }}
+                      color="white"
+                      backgroundColor="rgb(255,255,255,0.08)"
                     >
-                      <BsGithub />
+                      <BsGithub
+                        color="white"
+                        backgroundColor="rgb(255,255,255,0.08)"
+                      />
                     </a>
                   </Button>
                 </Stack>
@@ -176,7 +186,7 @@ function Works({ project, setProject }) {
                 maxW={"330px"}
                 w={"full"}
                 bg="transparent"
-                boxShadow={"2xl"}
+                boxShadow="rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"
                 rounded={"lg"}
                 pos={"relative"}
                 zIndex={1}
@@ -227,7 +237,7 @@ function Works({ project, setProject }) {
                     <a
                       href="https://auto-premium.netlify.app/"
                       target="_blank"
-                      style={{ textDecoration: "none" }}
+                      style={{ textDecoration: "none", color: "white" }}
                       className="hover-link"
                     >
                       Auto Premium{" "}
@@ -249,6 +259,8 @@ function Works({ project, setProject }) {
                       target="_blank"
                       className="hover-link"
                       style={{ display: "flex", textDecoration: "none" }}
+                      color="white"
+                      backgroundColor="rgb(255,255,255,0.08)"
                     >
                       Back-end{" "}
                       <BsGithub
@@ -262,10 +274,15 @@ function Works({ project, setProject }) {
                       target="_blank"
                       className="hover-link"
                       style={{ display: "flex", textDecoration: "none" }}
+                      color="white"
+                      backgroundColor="rgb(255,255,255,0.08)"
                     >
                       Front-end{" "}
                       <BsGithub
                         style={{ marginLeft: "8px", marginTop: "2px" }}
+                        color="white"
+                        backgroundColor="rgb(255,255,255,0.08)"
+        
                       />
                     </a>
                   </Button>
