@@ -166,6 +166,7 @@
 
 a:hover {
   text-decoration: none!important;
+  background-color: none;
 }
 
 .circular-menu:hover .panel {
