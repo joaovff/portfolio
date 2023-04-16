@@ -266,8 +266,9 @@ function Works({ project, setProject }) {
                       style={{
                         display: "flex",
                         textDecoration: "none",
-                        backgroundColor: "transparent",
+                        backgroundColor: "rgb(255,255,255,0.08)",
                         color: "white",
+
                       }}
                     >
                       Back-end{" "}
@@ -289,8 +290,9 @@ function Works({ project, setProject }) {
                       style={{
                         display: "flex",
                         textDecoration: "none",
-                        backgroundColor: "transparent",
+                        backgroundColor: "rgb(255,255,255,0.08)",
                         color: "white",
+
                       }}
                     >
                       Front-end{" "}
