@@ -329,6 +329,7 @@ function Works({ project, setProject }) {
               marginRight="10px"
               onClick={() => setProject("options")}
               backgroundColor="rgb(255,255,255,0.08)"
+              className="hover-link"
             >
               <AiOutlineRollback color="white" />
             </Button>
