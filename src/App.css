@@ -155,13 +155,17 @@
 }
 .hover-link:hover {
   color: #00ff00!important;
-  background-color: transparent!important;
+  
 }
 
 .panel {
   opacity: 0;
   width: 0;
   height: 0;
+}
+
+a:hover {
+  text-decoration: none!important;
 }
 
 .circular-menu:hover .panel {
