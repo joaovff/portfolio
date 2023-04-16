@@ -75,7 +75,12 @@ function About() {
             justifyContent="center"
             alignItems={"center"}
           >
-            <Avatar src="/i.jpeg" height="220px" width="200px" />
+            <Avatar
+              src="/i.jpeg"
+              height="220px"
+              width="200px"
+              marginBottom="25px"
+            />
             <Text textAlign={"justify"}>
               I'm a junior developer, passionate about cars, motorcycles and
               games like racing simulators, DOTA2, football, etc. I'm 24 years
