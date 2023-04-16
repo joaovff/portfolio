@@ -277,6 +277,7 @@ function Works({ project, setProject }) {
                         display: "flex",
                         textDecoration: "none",
                       }}
+                      className="hover-link"
                     >
                       Back-end{" "}
                       <BsGithub
@@ -302,6 +303,7 @@ function Works({ project, setProject }) {
                         textDecoration: "none",
                       }}
                       color="white"
+                      className="hover-link"
                     >
                       Front-end{" "}
                       <BsGithub
