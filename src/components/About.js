@@ -65,6 +65,7 @@ function About() {
           color="white"
           backgroundColor="transparent"
           marginTop="80px"
+          boxShadow="rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"
         >
           <ModalHeader>A bit more about me</ModalHeader>
           <ModalCloseButton />
@@ -98,7 +99,7 @@ function About() {
           </ModalBody>
 
           <ModalFooter>
-            <Button onClick={onClose}>
+            <Button backgroundColor="rgb(255,255,255,0.08)" onClick={onClose}>
               <AiOutlineClose
                 backgroundColor="rgb(255,255,255,0.08)"
                 color="white"
