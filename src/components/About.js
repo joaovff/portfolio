@@ -61,7 +61,11 @@ function About() {
 
       <Modal isCentered isOpen={isOpen} onClose={onClose}>
         {overlay}
-        <ModalContent backgroundColor="transparent" marginTop="80px">
+        <ModalContent
+          color="white"
+          backgroundColor="transparent"
+          marginTop="80px"
+        >
           <ModalHeader>A bit more about me</ModalHeader>
           <ModalCloseButton />
           <ModalBody
@@ -95,7 +99,10 @@ function About() {
 
           <ModalFooter>
             <Button onClick={onClose}>
-              <AiOutlineClose />
+              <AiOutlineClose
+                backgroundColor="rgb(255,255,255,0.08)"
+                color="white"
+              />
             </Button>
           </ModalFooter>
         </ModalContent>
