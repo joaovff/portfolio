@@ -89,7 +89,7 @@ function Works({ project, setProject }) {
               </Button>
             </ModalBody>
           ) : project === "idea" ? (
-            <Center className="modal-card" py={12}>
+            <Center marginTop="50px" className="modal-card" py={12}>
               <Box
                 role={"group"}
                 p={6}
@@ -162,7 +162,11 @@ function Works({ project, setProject }) {
                     </Text>
                   </Stack>
                   <br />
-                  <Button color="white" backgroundColor="rgb(255,255,255,0.08)">
+                  <Button
+                    className="hover-link"
+                    color="white"
+                    backgroundColor="rgb(255,255,255,0.08)"
+                  >
                     <a
                       href="https://github.com/joaovff/restaurant-project"
                       target="_blank"
@@ -187,7 +191,7 @@ function Works({ project, setProject }) {
               </Box>
             </Center>
           ) : (
-            <Center className="modal-card" py={12}>
+            <Center marginTop="50px" className="modal-card" py={12}>
               <Box
                 role={"group"}
                 p={6}
@@ -261,7 +265,11 @@ function Works({ project, setProject }) {
                     </Text>
                   </Stack>
                   <br />
-                  <Button color="white" backgroundColor="rgb(255,255,255,0.08)">
+                  <Button
+                    className="hover.link"
+                    color="white"
+                    backgroundColor="rgb(255,255,255,0.08)"
+                  >
                     <a
                       href="https://github.com/joaovff/Auto-Premium-Backend"
                       target="_blank"
@@ -283,7 +291,11 @@ function Works({ project, setProject }) {
                       />
                     </a>{" "}
                   </Button>
-                  <Button color="white" backgroundColor="rgb(255,255,255,0.08)">
+                  <Button
+                    className="hover-link"
+                    color="white"
+                    backgroundColor="rgb(255,255,255,0.08)"
+                  >
                     <a
                       href="https://github.com/joaovff/Auto-Premium-Frontend"
                       target="_blank"
