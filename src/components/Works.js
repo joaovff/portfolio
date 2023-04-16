@@ -170,20 +170,21 @@ function Works({ project, setProject }) {
                     <a
                       href="https://github.com/joaovff/restaurant-project"
                       target="_blank"
-                      className="hover-link"
                       style={{
                         display: "flex",
                         textDecoration: "none",
                         color: "white",
                         backgroundColor: "rgb(255,255,255,0.08)",
                       }}
+                      color="white"
                     >
                       <BsGithub
-                        className="hover-link"
                         style={{
                           backgroundColor: "transparent",
                           color: "white",
                         }}
+                        color="white"
+                        backgroundColor="transparent"
                       />
                     </a>
                   </Button>
@@ -277,6 +278,8 @@ function Works({ project, setProject }) {
                         display: "flex",
                         textDecoration: "none",
                       }}
+                      color="white"
+                      backgroundColor="transparent"
                       className="hover-link"
                     >
                       Back-end{" "}
@@ -287,6 +290,8 @@ function Works({ project, setProject }) {
                           backgroundColor: "transparent",
                           color: "white",
                         }}
+                        color="white"
+                        backgroundColor="transparent"
                       />
                     </a>{" "}
                   </Button>
@@ -294,6 +299,10 @@ function Works({ project, setProject }) {
                     className="hover-link"
                     color="white"
                     backgroundColor="rgb(255,255,255,0.08)"
+                    style={{
+                      backgroundColor: "rgb(255,255,255,0.08)",
+                      color: "white",
+                    }}
                   >
                     <a
                       href="https://github.com/joaovff/Auto-Premium-Frontend"
@@ -301,6 +310,7 @@ function Works({ project, setProject }) {
                       style={{
                         display: "flex",
                         textDecoration: "none",
+                        color: "white",
                       }}
                       color="white"
                       className="hover-link"
@@ -313,6 +323,7 @@ function Works({ project, setProject }) {
                           backgroundColor: "transparent",
                           color: "white",
                         }}
+                        color="white"
                       />
                     </a>
                   </Button>
