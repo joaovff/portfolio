@@ -170,7 +170,6 @@ function Works({ project, setProject }) {
                       backgroundColor="rgb(255,255,255,0.08)"
                     >
                       <BsGithub
-                        color="white"
                         backgroundColor="rgb(255,255,255,0.08)"
                       />
                     </a>
@@ -259,7 +258,6 @@ function Works({ project, setProject }) {
                       target="_blank"
                       className="hover-link"
                       style={{ display: "flex", textDecoration: "none" }}
-                      color="white"
                       backgroundColor="rgb(255,255,255,0.08)"
                     >
                       Back-end{" "}
@@ -274,13 +272,11 @@ function Works({ project, setProject }) {
                       target="_blank"
                       className="hover-link"
                       style={{ display: "flex", textDecoration: "none" }}
-                      color="white"
                       backgroundColor="rgb(255,255,255,0.08)"
                     >
                       Front-end{" "}
                       <BsGithub
                         style={{ marginLeft: "8px", marginTop: "2px" }}
-                        color="white"
                         backgroundColor="rgb(255,255,255,0.08)"
         
                       />
