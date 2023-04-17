@@ -59,7 +59,7 @@ function About() {
         <i className="fab fa-linkedin works hover-link">About me</i>
       </Button>
 
-      <Modal isCentered isOpen={isOpen} onClose={onClose}>
+      <Modal size={"xl"} isCentered isOpen={isOpen} onClose={onClose}>
         {overlay}
         <ModalContent
           style={{
@@ -78,12 +78,13 @@ function About() {
             flexDirection="column"
             justifyContent="center"
             alignItems={"center"}
+            marginTop="-10px"
           >
             <Avatar
               src="/i.jpeg"
-              height="220px"
-              width="200px"
-              marginBottom="25px"
+              height="150px"
+              width="150px"
+              marginBottom="15px"
             />
             <Text textAlign={"justify"}>
               I'm a junior developer, passionate about cars, motorcycles and
