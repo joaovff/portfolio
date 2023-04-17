@@ -84,6 +84,16 @@
   position:fixed;
 }
 
+@media (max-width: 480px) {
+  .panel {
+    top: 60%;
+
+  }
+  .inner-circle {
+    top: 60%;
+  }
+}
+
 .panel:nth-child(1) {
   transform: translateX(-50%);
 
