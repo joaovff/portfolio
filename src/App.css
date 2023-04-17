@@ -92,6 +92,10 @@
   .inner-circle {
     top: 60%;
   }
+  .text-about {
+    overflow-x: scroll;
+    height: 80vw;
+  }
 }
 
 .panel:nth-child(1) {
@@ -198,10 +202,7 @@ a:hover {
   
 } */
 
-.text-about {
-  overflow-x: scroll;
-  height: 80vw;
-}
+
 
 .title {
   position: absolute;

@@ -109,7 +109,11 @@ function About() {
           </ModalBody>
 
           <ModalFooter>
-            <Button className="hover-link" backgroundColor="rgb(255,255,255,0.08)" onClick={onClose}>
+            <Button
+              className="hover-link"
+              backgroundColor="rgb(255,255,255,0.08)"
+              onClick={onClose}
+            >
               <AiOutlineClose
                 backgroundColor="rgb(255,255,255,0.08)"
                 color="white"
