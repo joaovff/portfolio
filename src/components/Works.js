@@ -168,17 +168,18 @@ function Works({ project, setProject }) {
                     backgroundColor="rgb(255,255,255,0.08)"
                   >
                     <a
+                      className="hover-link"
                       href="https://github.com/joaovff/restaurant-project"
                       target="_blank"
                       style={{
                         display: "flex",
                         textDecoration: "none",
                         color: "white",
-                        backgroundColor: "rgb(255,255,255,0.08)",
                       }}
                       color="white"
                     >
                       <BsGithub
+                        className="hover-link"
                         style={{
                           backgroundColor: "transparent",
                           color: "white",
