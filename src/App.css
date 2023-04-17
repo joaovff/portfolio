@@ -188,6 +188,11 @@ a:hover {
   
 } */
 
+.text-about {
+  overflow-x: scroll;
+  height: 80vw;
+}
+
 .title {
   position: absolute;
   display: flex;

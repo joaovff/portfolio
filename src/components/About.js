@@ -86,7 +86,7 @@ function About() {
               width="150px"
               marginBottom="15px"
             />
-            <Text textAlign={"justify"}>
+            <Text textAlign={"justify"} className="text-about">
               I'm a junior developer, passionate about cars, motorcycles and
               games like racing simulators, DOTA2, football, etc. I'm 24 years
               old, living in Portugal since I was 19. <br /> At the age of 14 I
